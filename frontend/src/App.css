@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container .button {
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button.cancel {
+  background-color: #f44336;
+}
+
+.button.cancel:hover {
+  background-color: #d32f2f;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.button-group + .button-group {
+  margin-top: 20px;
+}
+
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* 使每个按钮在垂直方向上占满整个宽度 */
+}
+
+.button {
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* App.css */
+.activated-number {
+  font-size: 18px;
+  color: #007bff;
+  backgroundColor: '#f0f8ff';
+  padding: '10px';
+  borderRadius: '4px'; 
+  border: '1px solid #007bff';
+  marginTop: '10px';
+}
+
+
+/* App.css */
+.verification-code {
+  font-size: 18px;
+  color: #007bff;
+  backgroundColor: '#f0f8ff';
+  padding: '10px';
+  borderRadius: '4px'; 
+  border: '1px solid #007bff';
+  marginTop: '10px';
+}
+
+.verification-code {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #4CAF50; /* 绿色边框 */
+  border-radius: 5px; /* 圆角边框 */
+  background-color: #f9f9f9; /* 背景色 */
+  color: #333; /* 字体颜色 */
+  font-size: 16px; /* 字体大小 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+  transition: transform 0.2s; /* 动效 */
+}
+
+.verification-code:hover {
+  transform: scale(1.02); /* 鼠标悬停时放大效果 */
+}
