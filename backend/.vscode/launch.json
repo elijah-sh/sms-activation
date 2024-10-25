@@ -6,7 +6,7 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "/Users/shenshuaihu/SoftWare/MyFile/code/sms-activation/backend",
+            "program": "/Users/shenshuaihu/go/src/sms",
             "args": ["-config", " server.json"],
             "cwd": "/Users/shenshuaihu/go/src/sms",
             "buildFlags": "-tags 'server'",
