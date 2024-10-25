@@ -251,7 +251,7 @@ const SmsActivation = () => {
                 </div>
 
                 <div className="form-group">
-                    <label htmlFor="service-select">选择服务: </label>
+                    <label htmlFor="service-select">选择国家: </label>
                     <select
                         id="service-select"
                         value={selectedCountry || "0"}
